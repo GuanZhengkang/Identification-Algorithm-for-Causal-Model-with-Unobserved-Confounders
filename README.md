@@ -26,7 +26,7 @@ $$
 The set of variables $V$ can be partitioned into disjoint groups by assigning two variables to the same group if and only if they are connected by a bidirected path. Assume that $V$ is thus partitioned into $k$ groups $S_1, \ldots, S_k$, and denote by $N_j$ the set of $U$ variables that are parents of those variables in $S_j$. Clearly, the sets $N_1, \ldots, N_k$ form a partition of $U$. Define
 
 $$
-Q_j=\sum_{n_j} \prod_{\left(i \mid V_i \in S_j\right)} P\left(v_i \mid p a_i, u^i\right) P\left(n_j\right), j=1, \ldots, k .
+Q_j=\sum_{n_j} \prod_{\left{i \mid V_i \in S_j\right}} P\left(v_i \mid p a_i, u^i\right) P\left(n_j\right), j=1, \ldots, k .
 $$
 
 The disjointness of $N_1, \ldots, N_k$ implies that $P(v)$ can be decomposed into a product of $Q_j$ 's:

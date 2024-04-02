@@ -86,6 +86,7 @@ $$
 where $Q^X$ is the c-factor corresponding to the c-component $S^X$ that contains $X$.
 
 
+---
 
 ## Shpitser, I., & Pearl, J. (2006, July). Identification of joint interventional distributions in recursive semi-Markovian causal models. In AAAI (pp. 1219-1226).
 

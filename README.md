@@ -50,7 +50,7 @@ $$
 (ii) Each factor $P\left(v_i \mid v^{(i-1)}\right)$ can be expressed as
 
 $$
-P\left(v_i \mid v^{(i-1)}\right)=P\left(v_i \mid p a\left(T_i\right) \backslash\left\{v_i\right\}\right),
+P\left(v_i \mid v^{(i-1)}\right)=P\left(v_i \mid p a\left(T_i\right) \backslash\left(v_i\right)\right),
 $$
 
 where $T_i$ is the c-component of $G_{V^{(i)}}$ that contains $V_i$.
@@ -61,7 +61,7 @@ Let $X$ belong to the c-component $S^X$ with corresponding c-factor $Q^X$.
 Let $Q_x^X$ denote the c-factor $Q^X$ with the term $P\left(x \mid p a_x, u^x\right)$ removed, that is,
 
 $$
-Q_x^X=\sum_{n^X} \prod_{\left\{i \mid V_i \neq X, V_i \in S^X\right\}} P\left(v_i \mid p a_i, u^i\right) P\left(n^X\right) .
+Q_x^X=\sum_{n^X} \prod_{\left(i \mid V_i \neq X, V_i \in S^X\right)} P\left(v_i \mid p a_i, u^i\right) P\left(n^X\right) .
 $$
 
 We have

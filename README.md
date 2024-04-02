@@ -1,5 +1,4 @@
-### Coming Soon
----
+
 # Identification Algorithm for Causal Model with Unobserved Confounders (Semi-Markovian Causal Models)
 
 ## Tian, J., & Pearl, J. (2002, August). A general identification condition for causal effects. In Aaai/iaai (pp. 567-573).
@@ -40,7 +39,7 @@ We will call each $S_j$ a c-component of $V$ in $G$ or a c-component of $G$, and
 ### Identiﬁcation
 
 ##### Lemma 
-Let a topological order over $V$ be $V_1<\ldots<$ $V_n$, and let $V^{(i)}=\left\{V_1, \ldots, V_i\right\}, i=1, \ldots, n$, and $V^{(0)}=$ $\emptyset$. For any set $C$, let $G_C$ denote the subgraph of $G$ composed only of variables in $C$. Then
+Let a topological order over $V$ be $V_1<\ldots<$ $V_n$, and let $V^{(i)}=\left(V_1, \ldots, V_i\right), i=1, \ldots, n$, and $V^{(0)}=$ $\emptyset$. For any set $C$, let $G_C$ denote the subgraph of $G$ composed only of variables in $C$. Then
 (i) Each $c$-factor $Q_j, j=1, \ldots, k$, is identifiable and is given by
 
 $$
@@ -92,3 +91,7 @@ where $Q^X$ is the c-factor corresponding to the c-component $S^X$ that contains
 
 
 ## Shpitser, I., & Pearl, J. (2006, July). Identification of joint interventional distributions in recursive semi-Markovian causal models. In AAAI (pp. 1219-1226).
+
+
+### Coming Soon
+---

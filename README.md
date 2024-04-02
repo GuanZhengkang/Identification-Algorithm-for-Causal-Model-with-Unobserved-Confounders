@@ -4,6 +4,7 @@
 
 
 ### Semi-Markovian model
+
 $$
 M=\left\langle V, U, G_{V U}, P\left(v_i \mid p a_i, u^i\right), P(u)\right\rangle
 $$
@@ -11,6 +12,7 @@ $$
 $$
 P(v)=\sum_u \prod_i P\left(v_i \mid p a_i, u^i\right) P(u)
 $$
+
 $$
 \begin{aligned}
 & P_t(v) = \begin{cases}\sum_u \prod_{\left\{i \mid V_i \notin T\right\}} P\left(v_i \mid p a_i, u^i\right) P(u) & v \text { consistent with } t \\
@@ -26,11 +28,13 @@ The set of variables $V$ can be partitioned into disjoint groups by assigning tw
 $$
 Q_j=\sum_{n_j} \prod_{\{i \mid V_i \in S_j\}} P\left(v_i \mid p a_i, u^i\right) P\left(n_j\right), j=1, \ldots, k
 $$
+
 The disjointness of $N_1, \ldots, N_k$ implies that $P(v)$ can be decomposed into a product of $Q_j$ 's:
 
 $$
 P(v)=\prod_{j=1}^k Q_j
 $$
+
 We will call each $S_j$ a c-component of $V$ in $G$ or a c-component of $G$, and $Q_j$ the $c$-factor corresponding to the c-component $S_j$.
 
 ### Identiﬁcation
@@ -42,11 +46,13 @@ Let a topological order over $V$ be $V_1<\ldots<$ $V_n$, and let $V^{(i)}=\{V_1,
 $$
 Q_j=\prod_{\{i \mid V_i \in S_j\}} P\left(v_i \mid v^{(i-1)}\right)
 $$
+
 (ii) Each factor $P\left(v_i \mid v^{(i-1)}\right)$ can be expressed as
 
 $$
 P\left(v_i \mid v^{(i-1)}\right)=P\left(v_i \mid p a\left(T_i\right) \backslash\{v_i\}\right)
 $$
+
 where $T_i$ is the c-component of $G_{V^{(i)}}$ that contains $V_i$.
 
 #### Identification criterion for $P_x(v)$
@@ -57,6 +63,7 @@ Let $Q_x^X$ denote the c-factor $Q^X$ with the term $P\left(x \mid p a_x, u^x\ri
 $$
 Q_x^X=\sum_{n^X} \prod_{\{i \mid V_i \neq X, V_i \in S^X\}} P\left(v_i \mid p a_i, u^i\right) P\left(n^X\right) .
 $$
+
 We have
 
 $$
@@ -65,6 +72,7 @@ P(v)=Q^X \prod_i Q_i\\
 P_x(v)=Q_x^X \prod_i Q_i
 \end{gathered}
 $$
+
 Since all $Q_i$ 's are identifiable, $P_x(v)$ is identifiable if and only if $Q_x^X$ is identifiable, and we have the following theorem.
 
 ##### Theorem 
@@ -74,15 +82,12 @@ $P_x(v)$ is identifiable if and only if there is no bidirected path connecting $
 $$
 P_x(v)=\frac{P(v)}{Q^X} \sum_x Q^X
 $$
+
 where $Q^X$ is the c-factor corresponding to the c-component $S^X$ that contains $X$.
 
 
 
 ## Shpitser, I., & Pearl, J. (2006, July). Identification of joint interventional distributions in recursive semi-Markovian causal models. In AAAI (pp. 1219-1226).
-
-### Coming Soon
----
-
 
 ### Coming Soon
 ---

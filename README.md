@@ -15,7 +15,7 @@ $$
 
 $$
 \begin{aligned}
-& P_t(v) = \begin{cases}\sum_u \prod_{\{i \mid V_i \notin T\}} P\left(v_i \mid p a_i, u^i\right) P(u) & v \text { consistent with } t \\
+& P_t(v) = \begin{cases}\sum_u \prod_{\{i \mid V_i \notin T\}} P\left(v_i \mid p a_i, u^i\right) P(u) & v consistent with t \\
 0 & v \text { inconsistent with } t .\end{cases}
 \end{aligned}
 $$

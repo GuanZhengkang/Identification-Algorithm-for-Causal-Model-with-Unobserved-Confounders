@@ -41,6 +41,7 @@ We will call each $S_j$ a c-component of $V$ in $G$ or a c-component of $G$, and
 
 ##### Lemma 
 Let a topological order over $V$ be $V_1<\ldots<$ $V_n$, and let $V^{(i)}=\{V_1, \ldots, V_i\}, i=1, \ldots, n$, and $V^{(0)}=$ $\emptyset$. For any set $C$, let $G_C$ denote the subgraph of $G$ composed only of variables in $C$. Then
+
 (i) Each $c$-factor $Q_j, j=1, \ldots, k$, is identifiable and is given by
 
 $$
